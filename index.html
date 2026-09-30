@@ -1,42 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Xiyu Cindy - Personal Homepage</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Academic homepage of Xiyu Gu, Ph.D. Candidate at the University of Padua, working on computing-communication-control codesign, networked control, MPC, and optimal control." />
+  <meta name="author" content="Xiyu Gu" />
+  <title>Xiyu Gu | Ph.D. Candidate</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+  <header class="site-header">
+    <div class="shell nav-wrap">
+      <a class="brand" href="#top" aria-label="Xiyu Gu homepage">Xiyu Gu</a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#education">Education</a>
+        <a href="#awards">Awards</a>
+      </nav>
+    </div>
+  </header>
 
-    <h1>Hello! I'm Xiyu.</h1>
+  <main id="top">
+    <section class="hero shell">
+      <div class="hero-copy">
+        <p class="eyebrow">Ph.D. Candidate · University of Padua</p>
+        <h1>Xiyu Gu</h1>
+        <p class="lead">
+          Ph.D. candidate in <strong>Computing-Communication-Control Codesign</strong>, with research interests spanning
+          networked control, model predictive control, optimal control, and control over wireless and edge-cloud systems.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="mailto:xiyu.gu@studenti.unipd.it">Email</a>
+          <a class="button" href="https://github.com/Xiyu-Cindy" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a class="button" href="CV_Xiyu_Gu.pdf" target="_blank" rel="noopener noreferrer">CV</a>
+        </div>
+        <div class="quick-facts" aria-label="Current academic information">
+          <span>Padua, Italy</span>
+          <span>Supervisor: Prof. Matthias Pezzutto</span>
+          <span>Co-supervisor: Prof. Luca Schenato</span>
+        </div>
+      </div>
+      <div class="hero-photo-wrap">
+        <img class="hero-photo" src="profile.jpg" alt="Portrait of Xiyu Gu" />
+      </div>
+    </section>
 
-    <p>
-        Welcome to my academic homepage.
-    </p>
+    <section id="about" class="section alt">
+      <div class="shell grid-two">
+        <div>
+          <p class="section-kicker">About</p>
+          <h2>Research profile</h2>
+        </div>
+        <div class="prose">
+          <p>
+            I am a Ph.D. candidate at the University of Padua. My current work focuses on the interaction among
+            computation, communication, and control, especially when controllers rely on shared edge/cloud computing
+            resources and communication networks with packet loss or delay.
+          </p>
+          <p>
+            Before joining the University of Padua, I was a Research Assistant at the University of Victoria.
+            I received both my M.Eng. and B.Eng. degrees from Northwestern Polytechnical University.
+          </p>
+        </div>
+      </div>
+    </section>
 
-    <h2>About Me</h2>
+    <section id="research" class="section shell">
+      <p class="section-kicker">Research</p>
+      <h2>Research interests</h2>
+      <div class="cards three">
+        <article class="card">
+          <h3>Control theory</h3>
+          <p>Model Predictive Control (MPC), prescribed performance control (PPC), robust control, adaptive control, optimal control, and cooperative control.</p>
+        </article>
+        <article class="card">
+          <h3>Control over wireless</h3>
+          <p>Edge-based and cloud-based optimal control under packet loss and communication delay, with attention to computation-communication trade-offs.</p>
+        </article>
+        <article class="card">
+          <h3>Applications</h3>
+          <p>Multi-performance flight-control requirements, cooperative control of multi-agent systems, and route planning.</p>
+        </article>
+      </div>
+    </section>
 
-    <p>
-        I am a Ph.D. student working on control and optimization.
-    </p>
+    <section id="publications" class="section alt">
+      <div class="shell">
+        <p class="section-kicker">Publications</p>
+        <div class="section-heading-row">
+          <h2>Selected and recent publications</h2>
+          <span class="muted">2020–2026</span>
+        </div>
 
-    <h2>Research Interests</h2>
+        <div class="pub-list">
+          <article class="publication">
+            <div class="pub-year">2026</div>
+            <div>
+              <h3>Data-Physics Fusion-Guided Bayesian Fuzzy Learning for Interpretable Reentry Vehicle Trajectory Prediction</h3>
+              <p>Y. Dong, Z. Guo, Z. Peng, <strong>X. Gu</strong></p>
+              <p class="venue">IEEE Transactions on Aerospace and Electronic Systems · Corresponding author</p>
+            </div>
+          </article>
 
-    <p>
-        Control Theory, Optimization, Autonomous Systems.
-    </p>
+          <article class="publication">
+            <div class="pub-year">2026</div>
+            <div>
+              <h3>Cloud-based Reference Governor with Dynamic Computation Offloading over Shared Computing Resources</h3>
+              <p><strong>X. Gu</strong>, S. Dey, M. Pezzutto</p>
+              <p class="venue">European Control Conference (ECC)</p>
+            </div>
+          </article>
 
-    <h2>Contact</h2>
+          <article class="publication">
+            <div class="pub-year">2025</div>
+            <div>
+              <h3>Communication-Computation Trade-off and Optimal Control Selection in LQG Control</h3>
+              <p><strong>X. Gu</strong>, L. Schenato, S. Dey, M. Pezzutto</p>
+              <p class="venue">IEEE Control Systems Letters</p>
+            </div>
+          </article>
 
-    <p>
-        GitHub:
-        <a href="https://github.com/Xiyu-Cindy">
-            Xiyu-Cindy
-        </a>
-    </p>
+          <article class="publication">
+            <div class="pub-year">2025</div>
+            <div>
+              <h3>Optimal Control Selection over the Edge-Cloud Continuum</h3>
+              <p><strong>X. Gu</strong>, M. Pezzutto, L. Schenato, S. Dey</p>
+              <p class="venue">IFAC-PapersOnline · <span class="badge">Finalist for Young Author Award</span></p>
+            </div>
+          </article>
 
+          <article class="publication">
+            <div class="pub-year">2025</div>
+            <div>
+              <h3>Cooperative Edge-Cloud MPC for Constrained Control under Arbitrary Communication Environment</h3>
+              <p><strong>X. Gu</strong>, M. Pezzutto, L. Schenato, S. Dey</p>
+              <p class="venue">Automatica (regular paper) · Under review</p>
+            </div>
+          </article>
+
+          <article class="publication">
+            <div class="pub-year">2024</div>
+            <div>
+              <h3>Prescribed Performance-Guaranteed Tracking Control: A Switched Positive System Perspective</h3>
+              <p><strong>X. Gu</strong>, Z. Guo, X. Wang, et al.</p>
+              <p class="venue">IEEE Control Systems Letters</p>
+            </div>
+          </article>
+
+          <article class="publication">
+            <div class="pub-year">2024</div>
+            <div>
+              <h3>Performance-Guaranteed Attitude Tracking Control for RLV: A Finite-Time PPC Approach</h3>
+              <p>Z. Guo, <strong>X. Gu</strong>, Y. Han, et al.</p>
+              <p class="venue">IEEE Transactions on Aerospace and Electronic Systems · Corresponding author</p>
+            </div>
+          </article>
+
+          <article class="publication">
+            <div class="pub-year">2024</div>
+            <div>
+              <h3>Maneuvering Tracking Algorithm for Reentry Vehicles with Guaranteed Prescribed Performance</h3>
+              <p>Z. Guo, D. Herry, <strong>X. Gu</strong>, et al.</p>
+              <p class="venue">IEEE Transactions on Aerospace and Electronic Systems, 60(3), 3012–3020</p>
+            </div>
+          </article>
+
+          <article class="publication">
+            <div class="pub-year">2022</div>
+            <div>
+              <h3>Performance Improvement-Oriented Reentry Attitude Control for Reusable Launch Vehicles with Overload Constraint</h3>
+              <p><strong>X. Gu</strong>, J. Guo, Z. Guo</p>
+              <p class="venue">ISA Transactions, 128, 386–396</p>
+            </div>
+          </article>
+
+          <article class="publication">
+            <div class="pub-year">2020</div>
+            <div>
+              <h3>Asymptotic Adaptive Tracking Control for Hypersonic Vehicles with Guaranteeing Multi-Performance Requirements</h3>
+              <p>J. Guo, <strong>X. Gu</strong>, Z. Guo</p>
+              <p class="venue">Aerospace Science and Technology, 105, 106025</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section shell">
+      <p class="section-kicker">Background</p>
+      <h2>Education & research experience</h2>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-date">Jan. 2024 – Present</div>
+          <div>
+            <h3>University of Padua</h3>
+            <p class="role">Ph.D. Candidate · Padua, Italy</p>
+            <p>Subject: Computing-Communication-Control Codesign</p>
+            <p class="muted">Supervisor: Prof. Matthias Pezzutto · Co-supervisor: Prof. Luca Schenato</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-date">Jun. 2022 – Dec. 2023</div>
+          <div>
+            <h3>University of Victoria</h3>
+            <p class="role">Research Assistant · Victoria, Canada</p>
+            <p class="muted">Supervisor: Prof. Yang Shi</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-date">Sep. 2019 – Mar. 2022</div>
+          <div>
+            <h3>Northwestern Polytechnical University</h3>
+            <p class="role">Master of Engineering · Navigation, Guidance & Control</p>
+            <p>GPA: 3.55/4.00 · Rank: 3/69</p>
+            <p class="muted">Supervisor: Prof. Jianguo Guo · Co-supervisor: Prof. Zongyi Guo</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-date">Sep. 2015 – Jun. 2019</div>
+          <div>
+            <h3>Northwestern Polytechnical University</h3>
+            <p class="role">Bachelor of Engineering · Flight Vehicle Design & Engineering</p>
+            <p>GPA: 3.58/4.00 · Rank: 2/32</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="awards" class="section alt">
+      <div class="shell">
+        <p class="section-kicker">Recognition</p>
+        <h2>Awards & competitions</h2>
+        <div class="awards-grid">
+          <div class="award-group">
+            <h3>National awards</h3>
+            <ul>
+              <li><span>Postgraduate admission with exemption of examination</span><time>Sep. 2018</time></li>
+              <li><span>National Encouragement Scholarship</span><time>Oct. 2017</time></li>
+              <li><span>National Encouragement Scholarship</span><time>Oct. 2016</time></li>
+            </ul>
+          </div>
+          <div class="award-group">
+            <h3>University awards</h3>
+            <ul>
+              <li><span>Excellent Master's Thesis, Northwestern Polytechnical University</span><time>Sep. 2022</time></li>
+              <li><span>Second-class Postgraduate Scholarship</span><time>Oct. 2020</time></li>
+              <li><span>Special Scholarship of Wu Yajun</span><time>Oct. 2020</time></li>
+              <li><span>First-class Postgraduate Scholarship</span><time>Oct. 2019</time></li>
+              <li><span>Second-class Undergraduate Scholarship of NWPU</span><time>Oct. 2018</time></li>
+              <li><span>First-class Undergraduate Scholarship of NWPU</span><time>Oct. 2017</time></li>
+              <li><span>First-class Undergraduate Scholarship of NWPU</span><time>Oct. 2016</time></li>
+            </ul>
+          </div>
+          <div class="award-group full">
+            <h3>Competitions</h3>
+            <ul>
+              <li><span>Second Prize, Mathematical Contest of Modelling of Shaan'Xi Province</span><time>Oct. 2018</time></li>
+              <li><span>First Prize, Mathematical Contest of Modelling of NWPU</span><time>Oct. 2017</time></li>
+              <li><span>Second Prize, 11th Higher Mathematics Competition in Shaan'Xi Province</span><time>Aug. 2017</time></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell contact">
+      <p class="section-kicker">Contact</p>
+      <h2>Get in touch</h2>
+      <p>For academic correspondence, email <a href="mailto:xiyu.gu@studenti.unipd.it">xiyu.gu@studenti.unipd.it</a>.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="mailto:xiyu.gu@studenti.unipd.it">Email Xiyu</a>
+        <a class="button" href="CV_Xiyu_Gu.pdf" target="_blank" rel="noopener noreferrer">View CV</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer-inner">
+      <span>© 2026 Xiyu Gu</span>
+      <span>Hosted with GitHub Pages</span>
+    </div>
+  </footer>
 </body>
-
 </html>
