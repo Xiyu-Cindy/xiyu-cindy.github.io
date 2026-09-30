@@ -246,3 +246,13 @@ h3 {
   .timeline-item { grid-template-columns: 1fr; gap: 5px; padding-bottom: 30px; }
   .footer-inner { display: block; }
 }
+
+.lead.collaboration {
+  margin-top: -10px;
+  font-size: 1.08rem;
+}
+.lead a {
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
