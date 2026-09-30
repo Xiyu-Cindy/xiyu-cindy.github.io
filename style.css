@@ -113,6 +113,18 @@ h3 {
   line-height: 1.8;
 }
 
+
+.email-link {
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+}
+.email-link:hover {
+  color: var(--accent-dark);
+}
+
 .hero-actions { display: flex; gap: 10px; flex-wrap: wrap; margin: 25px 0 0; }
 .button {
   display: inline-flex;
